@@ -4,6 +4,7 @@ main: com.bonfire.mmmobsdropia.BonfireMMmobsDropIaBridge
 api-version: '1.21'
 description: Generic MythicMobs to ItemsAdder ground-drop bridge for MM mob loot
 authors: [Bonfire]
+website: https://github.com/mingxi7077/bonfireMMmobs_dropia_bridge
 softdepend: [ItemsAdder, MythicMobs]
 commands:
   mmdropia:

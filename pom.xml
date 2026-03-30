@@ -11,6 +11,22 @@
 
     <name>bonfireMMmobs_dropia_bridge</name>
     <description>Generic MythicMobs to ItemsAdder ground-drop bridge for MM mob loot</description>
+    <url>https://github.com/mingxi7077/bonfireMMmobs_dropia_bridge</url>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/mingxi7077/bonfireMMmobs_dropia_bridge</url>
+        <connection>scm:git:https://github.com/mingxi7077/bonfireMMmobs_dropia_bridge.git</connection>
+        <developerConnection>scm:git:https://github.com/mingxi7077/bonfireMMmobs_dropia_bridge.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <java.version>21</java.version>
