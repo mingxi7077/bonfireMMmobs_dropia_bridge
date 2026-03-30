@@ -8,6 +8,8 @@
 
 `bonfireMMmobs_dropia_bridge` is a ground-drop bridge that turns MythicMobs kill events into ItemsAdder-backed loot drops for the Bonfire content pipeline.
 
+> Non-commercial source-available. Commercial use requires prior written permission via `mingxi7707@qq.com`.
+
 ## Highlights
 
 - Hooks MythicMobs death events and resolves Bonfire loot rules.
