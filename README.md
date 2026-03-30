@@ -1,6 +1,7 @@
 # bonfireMMmobs_dropia_bridge
 
-![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![License](https://img.shields.io/badge/license-BNSL--1.0-red)
+![Commercial Use](https://img.shields.io/badge/commercial-use%20by%20written%20permission%20only-critical)
 ![Platform](https://img.shields.io/badge/platform-Paper%201.21.8-brightgreen)
 ![Dependencies](https://img.shields.io/badge/dependencies-MythicMobs%20%2B%20ItemsAdder-blueviolet)
 ![Status](https://img.shields.io/badge/status-active-success)
@@ -31,4 +32,6 @@
 
 ## License
 
-GPL-3.0
+Bonfire Non-Commercial Source License 1.0
+
+Commercial use is prohibited unless you first obtain written permission from `mingxi7707@qq.com`.
