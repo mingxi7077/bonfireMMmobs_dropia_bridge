@@ -1,0 +1,101 @@
+debug: false
+
+drops:
+  nm_bald_eagle:
+    - ia_id: nogs_menagerie:nm_bald_eagle_feather
+      chance: 40.0
+      amount_range: 2-4
+  nm_beaver:
+    - ia_id: nogs_menagerie:nm_beaver_teeth
+      chance: 20.0
+      amount: 1
+  nm_blue_tit:
+    - ia_id: nogs_menagerie:nm_blue_tit_feather
+      chance: 30.0
+      amount_range: 2-3
+  nm_capybara:
+    - ia_id: nogs_menagerie:nm_capybara_pelt
+      chance: 65.0
+      amount_range: 1-2
+  nm_cardinal:
+    - ia_id: nogs_menagerie:nm_cardinal_feather
+      chance: 30.0
+      amount_range: 2-3
+  nm_flamingo:
+    - ia_id: nogs_menagerie:nm_flamingo_feather
+      chance: 40.0
+      amount_range: 2-4
+  nm_flamingo_rose:
+    - ia_id: nogs_menagerie:nm_flamingo_feather
+      chance: 40.0
+      amount_range: 2-4
+  nm_flamingo_white:
+    - ia_id: nogs_menagerie:nm_flamingo_feather
+      chance: 40.0
+      amount_range: 2-4
+  nm_hedgehog:
+    - ia_id: nogs_menagerie:nm_hedgehog_quill
+      chance: 60.0
+      amount_range: 1-2
+  nm_ibex_alpine:
+    - ia_id: nogs_menagerie:nm_ibex_alpine_horn
+      chance: 40.0
+      amount_range: 1-2
+  nm_ibex_nubian:
+    - ia_id: nogs_menagerie:nm_ibex_nubian_horn
+      chance: 40.0
+      amount_range: 1-2
+  nm_orca:
+    - ia_id: nogs_menagerie:nm_orca_fin
+      chance: 20.0
+      amount: 1
+  nm_penguin:
+    - ia_id: nogs_menagerie:nm_penguin_feather
+      chance: 45.0
+      amount_range: 1-2
+  nm_reindeer:
+    - ia_id: nogs_menagerie:nm_reindeer_horn
+      chance: 10.0
+      amount_range: 1-2
+  nm_rhino:
+    - ia_id: nogs_menagerie:nm_rhino_horn
+      chance: 5.0
+      amount: 1
+  nm_robin:
+    - ia_id: nogs_menagerie:nm_robin_feather
+      chance: 30.0
+      amount_range: 2-3
+  nm_shark_great_white:
+    - ia_id: nogs_menagerie:nm_shark_tooth
+      chance: 80.0
+      amount_range: 1-2
+    - ia_id: nogs_menagerie:nm_shark_fin
+      chance: 40.0
+      amount: 1
+  nm_shark_hammerhead:
+    - ia_id: nogs_menagerie:nm_shark_tooth
+      chance: 80.0
+      amount_range: 1-2
+    - ia_id: nogs_menagerie:nm_shark_fin
+      chance: 40.0
+      amount: 1
+  nm_toucan_channel-billed:
+    - ia_id: nogs_menagerie:nm_toucan_beak
+      chance: 10.0
+      amount: 1
+  nm_toucan_keel-billed:
+    - ia_id: nogs_menagerie:nm_toucan_beak
+      chance: 10.0
+      amount: 1
+  nm_toucan_toco:
+    - ia_id: nogs_menagerie:nm_toucan_beak
+      chance: 10.0
+      amount: 1
+  nm_turkey:
+    - ia_id: nogs_menagerie:nm_turkey_feather
+      chance: 60.0
+      amount_range: 1-2
+  nm_woodpecker:
+    - ia_id: nogs_menagerie:nm_woodpecker_feather
+      chance: 60.0
+      amount_range: 1-2

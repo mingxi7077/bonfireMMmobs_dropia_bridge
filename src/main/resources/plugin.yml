@@ -1,0 +1,17 @@
+name: bonfireMMmobs_dropia_bridge
+version: '${project.version}'
+main: com.bonfire.mmmobsdropia.BonfireMMmobsDropIaBridge
+api-version: '1.21'
+description: Generic MythicMobs to ItemsAdder ground-drop bridge for MM mob loot
+authors: [Bonfire]
+softdepend: [ItemsAdder, MythicMobs]
+commands:
+  mmdropia:
+    description: bonfireMMmobs_dropia_bridge admin command
+    aliases: [nogsdrop]
+    permission: bonfire.mmmobsdropia.admin
+    usage: /mmdropia <reload|spawn>
+permissions:
+  bonfire.mmmobsdropia.admin:
+    default: op
+    description: Admin permission for bonfireMMmobs_dropia_bridge
