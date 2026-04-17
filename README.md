@@ -1,39 +1,75 @@
 # bonfireMMmobs_dropia_bridge
 
-![License](https://img.shields.io/badge/license-BNSL--1.0-red)
-![Commercial Use](https://img.shields.io/badge/commercial-use%20by%20written%20permission%20only-critical)
-![Platform](https://img.shields.io/badge/platform-Paper%201.21.8-brightgreen)
-![Dependencies](https://img.shields.io/badge/dependencies-MythicMobs%20%2B%20ItemsAdder-blueviolet)
-![Status](https://img.shields.io/badge/status-active-success)
+[English](#english) | [简体中文](#简体中文)
 
-`bonfireMMmobs_dropia_bridge` is a ground-drop bridge that turns MythicMobs kill events into ItemsAdder-backed loot drops for the Bonfire content pipeline.
+bonfireMMmobs_dropia_bridge is a Bonfire loot bridge between MythicMobs and ItemsAdder.
 
-> Non-commercial source-available. Commercial use requires prior written permission via `mingxi7707@qq.com`.
+bonfireMMmobs_dropia_bridge 是一个连接 MythicMobs 与 ItemsAdder 的 Bonfire 掉落桥接插件。
 
-## Highlights
+---
+
+## English
+
+`bonfireMMmobs_dropia_bridge` turns MythicMobs kill events into ItemsAdder-backed ground loot for the Bonfire custom drop pipeline.
+
+### What It Does
 
 - Hooks MythicMobs death events and resolves Bonfire loot rules.
 - Spawns ItemsAdder-backed drops through a dedicated bridge layer.
-- Keeps the drop logic configurable and separate from mob definition files.
-- Provides admin control through the `/mmdropia` command.
+- Keeps drop logic decoupled from mob definition files.
+- Provides runtime control through the `/mmdropia` command.
 
-## Core Command
+### Core Command
 
 - `/mmdropia <reload|spawn>`
 
-## Build
+### Repository Layout
+
+- `src/`: plugin source code
+- `pom.xml`: Maven build definition
+- `target/`: local build output, excluded from release tracking
+
+### Build
 
 ```powershell
 .\mvnw.cmd -q -DskipTests package
 ```
 
-## Repository Scope
+### License
 
-- Source and config only.
-- Build outputs and deployment artifacts are excluded from Git.
+This repository currently uses the `Bonfire Non-Commercial Source License 1.0`.
+See [LICENSE](LICENSE) for the exact terms.
 
-## License
+---
 
-Bonfire Non-Commercial Source License 1.0
+## 简体中文
 
-Commercial use is prohibited unless you first obtain written permission from `mingxi7707@qq.com`.
+`bonfireMMmobs_dropia_bridge` 用于把 MythicMobs 的击杀事件转成基于 ItemsAdder 的地面掉落，是 Bonfire 自定义掉落流程中的桥接层。
+
+### 它的作用
+
+- 监听 MythicMobs 死亡事件并解析 Bonfire 的掉落规则。
+- 通过专门的桥接逻辑生成 ItemsAdder 支持的掉落物。
+- 让掉落逻辑与怪物定义文件解耦，便于独立维护。
+- 通过 `/mmdropia` 提供运行时控制。
+
+### 主要命令
+
+- `/mmdropia <reload|spawn>`
+
+### 仓库结构
+
+- `src/`：插件源码
+- `pom.xml`：Maven 构建定义
+- `target/`：本地构建输出，不纳入发布源码
+
+### 构建方式
+
+```powershell
+.\mvnw.cmd -q -DskipTests package
+```
+
+### 授权
+
+本仓库当前采用 `Bonfire Non-Commercial Source License 1.0`。
+具体条款见 [LICENSE](LICENSE)。
